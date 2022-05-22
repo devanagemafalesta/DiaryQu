@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellow"
+    tools:context=".ui.Fragment.EditNote">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Judul"
+            android:id="@+id/editJudul"
+            android:textColorHint="@color/white"
+            android:background="@drawable/text_edit"
+            android:padding="13dp"/>
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Sub-judul"
+            android:id="@+id/editSubJudul"
+            android:textColorHint="@color/white"
+            android:background="@drawable/text_edit"
+            android:padding="13dp"
+            android:layout_marginTop="12dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/verySad"
+                android:background="@drawable/ic_baseline_sentiment_very_dissatisfied_24">
+            </ImageView>
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/sad"
+                android:background="@drawable/ic_baseline_sentiment_dissatisfied_24"
+                android:layout_marginStart="10dp">
+            </ImageView>
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/netral"
+                android:background="@drawable/ic_baseline_sentiment_satisfied_24"
+                android:layout_marginStart="10dp">
+            </ImageView>
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/happy"
+                android:background="@drawable/ic_baseline_sentiment_satisfied_alt_24"
+                android:layout_marginStart="10dp">
+            </ImageView>
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/veryHappy"
+                android:background="@drawable/ic_baseline_sentiment_very_satisfied_24"
+                android:layout_marginStart="10dp">
+            </ImageView>
+
+
+        </LinearLayout>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/text_edit"
+            android:hint="Ceritakan harimu"
+            android:id="@+id/editDeskripsi"
+            android:paddingStart="18dp"
+            android:paddingTop="18dp"
+            android:paddingBottom="400dp"
+            android:textColorHint="@color/white" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/edit_simpan_Note_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:text="@string/save"
+        android:backgroundTint="@color/blue"
+        android:layout_margin="30dp"/>
+
+    <!--    <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+    <!--        android:id="@+id/simpan_Note_btn"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_gravity="bottom|right"-->
+    <!--        android:src="@drawable/ic_baseline_check_24"-->
+    <!--        android:layout_margin="30dp">-->
+
+    <!--    </com.google.android.material.floatingactionbutton.FloatingActionButton>-->
+
+</FrameLayout>

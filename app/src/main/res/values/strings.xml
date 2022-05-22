@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">NoteQ</string>
+    <string name="app_name">DiaryQu</string>
+    <string name="title">DiaryQu</string>
+    <string name="descApp">DiaryQu merupakan aplikasi catatan diary sederhana. Proses penyutingano diary dapat dilakukan dengan cepat dan mudah. DiaryQu dapat menulis berbagai catatan dan agenda</string>
+    <string name="by">6706201102</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="save">Save</string>
 </resources>

@@ -1,5 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Kuliah/Semester 4/Mobpro/Assesment 2/app/src/main/res/drawable/btn_no.xml" value="0.1" />
+        <entry key="..\:/Kuliah/Semester 4/Mobpro/Assesment 2/app/src/main/res/drawable/btn_yes.xml" value="0.1" />
+        <entry key="..\:/Kuliah/Semester 4/Mobpro/Assesment 2/app/src/main/res/drawable/ic_baseline_add_circle_24.xml" value="0.1" />
+        <entry key="..\:/Kuliah/Semester 4/Mobpro/Assesment 2/app/src/main/res/drawable/ic_baseline_sentiment_dissatisfied_24.xml" value="0.1" />
+        <entry key="..\:/Kuliah/Semester 4/Mobpro/Assesment 2/app/src/main/res/drawable/ic_baseline_sentiment_satisfied_24.xml" value="0.1" />
+        <entry key="..\:/Kuliah/Semester 4/Mobpro/Assesment 2/app/src/main/res/drawable/ic_baseline_sentiment_satisfied_alt_24.xml" value="0.1" />
+        <entry key="..\:/Kuliah/Semester 4/Mobpro/Assesment 2/app/src/main/res/drawable/ic_baseline_sentiment_very_dissatisfied_24.xml" value="0.1" />
+        <entry key="..\:/Kuliah/Semester 4/Mobpro/Assesment 2/app/src/main/res/drawable/ic_baseline_sentiment_very_satisfied_24.xml" value="0.1" />
+        <entry key="..\:/Kuliah/Semester 4/Mobpro/Assesment 2/app/src/main/res/drawable/text_edit.xml" value="0.1" />
+        <entry key="..\:/Kuliah/Semester 4/Mobpro/Assesment 2/app/src/main/res/layout/activity_main.xml" value="0.14666666666666667" />
+        <entry key="..\:/Kuliah/Semester 4/Mobpro/Assesment 2/app/src/main/res/layout/activity_welcome.xml" value="0.14285714285714285" />
+        <entry key="..\:/Kuliah/Semester 4/Mobpro/Assesment 2/app/src/main/res/layout/delete_popup.xml" value="0.1796875" />
+        <entry key="..\:/Kuliah/Semester 4/Mobpro/Assesment 2/app/src/main/res/layout/dialog_konfirmasi_hapus.xml" value="0.22" />
+        <entry key="..\:/Kuliah/Semester 4/Mobpro/Assesment 2/app/src/main/res/layout/fragment_beranda.xml" value="0.16666666666666666" />
+        <entry key="..\:/Kuliah/Semester 4/Mobpro/Assesment 2/app/src/main/res/layout/fragment_edit_note.xml" value="0.12037037037037036" />
+        <entry key="..\:/Kuliah/Semester 4/Mobpro/Assesment 2/app/src/main/res/layout/fragment_tambah_note.xml" value="0.16666666666666666" />
+        <entry key="..\:/Kuliah/Semester 4/Mobpro/Assesment 2/app/src/main/res/layout/item_note.xml" value="0.3348623853211009" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>

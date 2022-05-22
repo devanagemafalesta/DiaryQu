@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/alur_navigation"
+    app:startDestination="@id/beranda">
+
+    <fragment
+        android:id="@+id/beranda"
+        android:name="org.d3if1102.noteq.ui.Fragment.Beranda"
+        android:label="fragment_beranda"
+        tools:layout="@layout/fragment_beranda" >
+        <action
+            android:id="@+id/action_beranda_to_tambahNote"
+            app:destination="@id/tambahNote" />
+        <action
+            android:id="@+id/action_beranda_to_editNote"
+            app:destination="@id/editNote" />
+    </fragment>
+    <fragment
+        android:id="@+id/tambahNote"
+        android:name="org.d3if1102.noteq.ui.Fragment.TambahNote"
+        android:label="fragment_tambah_note"
+        tools:layout="@layout/fragment_tambah_note" >
+        <action
+            android:id="@+id/action_tambahNote_to_beranda"
+            app:destination="@id/beranda" />
+    </fragment>
+    <fragment
+        android:id="@+id/editNote"
+        android:name="org.d3if1102.noteq.ui.Fragment.EditNote"
+        android:label="fragment_edit_note"
+        tools:layout="@layout/fragment_edit_note" >
+        <action
+            android:id="@+id/action_editNote_to_beranda"
+            app:destination="@id/beranda" />
+    </fragment>
+</navigation>
