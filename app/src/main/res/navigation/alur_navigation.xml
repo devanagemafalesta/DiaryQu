@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/beranda"
         android:name="org.d3if1102.noteq.ui.Fragment.Beranda"
-        android:label="fragment_beranda"
+        android:label="@string/app_name"
         tools:layout="@layout/fragment_beranda" >
         <action
             android:id="@+id/action_beranda_to_tambahNote"
@@ -16,11 +16,14 @@
         <action
             android:id="@+id/action_beranda_to_editNote"
             app:destination="@id/editNote" />
+        <action
+            android:id="@+id/action_beranda_to_about"
+            app:destination="@id/about" />
     </fragment>
     <fragment
         android:id="@+id/tambahNote"
         android:name="org.d3if1102.noteq.ui.Fragment.TambahNote"
-        android:label="fragment_tambah_note"
+        android:label="Tambah Diary"
         tools:layout="@layout/fragment_tambah_note" >
         <action
             android:id="@+id/action_tambahNote_to_beranda"
@@ -29,10 +32,21 @@
     <fragment
         android:id="@+id/editNote"
         android:name="org.d3if1102.noteq.ui.Fragment.EditNote"
-        android:label="fragment_edit_note"
+        android:label="Edit Diary"
         tools:layout="@layout/fragment_edit_note" >
         <action
             android:id="@+id/action_editNote_to_beranda"
+            app:destination="@id/beranda" />
+        <argument
+            android:name="data"
+            app:argType="org.d3if1102.noteq.model.Note" />
+    </fragment>
+    <fragment
+        android:id="@+id/about"
+        android:name="org.d3if1102.noteq.ui.Fragment.About"
+        android:label="About" >
+        <action
+            android:id="@+id/action_about_to_beranda"
             app:destination="@id/beranda" />
     </fragment>
 </navigation>

@@ -14,6 +14,7 @@
         <View
             android:layout_width="30dp"
             android:layout_height="30dp"
+            android:id="@+id/viewMood"
             android:background="@drawable/ic_baseline_sentiment_very_dissatisfied_24"
             android:layout_gravity="right"
             android:layout_margin="10dp"
@@ -32,6 +33,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-black"
+                android:id="@+id/judulNote"
                 android:maxLines="1"
                 android:text="@string/app_name"
                 android:textColor="@color/white"
@@ -42,6 +44,7 @@
                 android:layout_height="wrap_content"
                 android:text="lorem ipsum wkjakjahfaofh iwafehfetufheuiafhaeuifaeuifhauighrugaerughrigar[goregherfraejgherhhfeafhghefgajfhafaef"
                 android:textColor="@color/white"
+                android:id="@+id/subJudulNote"
                 android:textSize="20sp"
                 android:layout_marginTop="10dp"/>
 
@@ -50,6 +53,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:fontFamily="sans-serif-black"
+                android:id="@+id/tanggalNote"
                 android:text="10 Mei 2002"
                 android:textColor="@color/white"
                 android:textSize="20sp" />

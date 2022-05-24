@@ -2,7 +2,11 @@ plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
     id 'kotlin-kapt'
+    id 'androidx.navigation.safeargs.kotlin'
+    id 'kotlin-parcelize'
 }
+
+apply plugin: "androidx.navigation.safeargs.kotlin"
 
 android {
     compileSdk 32
@@ -20,6 +24,7 @@ android {
     buildFeatures {
         viewBinding true
     }
+
 
     buildTypes {
         release {
