@@ -1,5 +1,7 @@
 package org.d3if1102.noteq.ui.Fragment
 
+import android.annotation.SuppressLint
+import android.content.Intent
 import android.os.Bundle
 import android.text.format.DateFormat
 import android.view.*
@@ -30,11 +32,12 @@ class EditNote : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         binding = FragmentEditNoteBinding.inflate(layoutInflater, container,false)
-
         binding.editJudul.setText(oldNote.data.judul)
         binding.editSubJudul.setText(oldNote.data.subJudul)
         binding.editDeskripsi.setText(oldNote.data.deskripsi)
+        binding.shareButton.visibility=View.VISIBLE
         setHasOptionsMenu(true)
+
 
         when(oldNote.data.mood) {
             "verysad" -> {
@@ -129,11 +132,31 @@ class EditNote : Fragment() {
 
         }
 
+        binding.shareButton.setOnClickListener { shareData() }
+
         binding.editSimpanNoteBtn.setOnClickListener{
             updateNote(it)
         }
         return binding.root
     }
+
+
+    private fun shareData() {
+
+        val message = getString(
+            R.string.bagikan_template,
+            binding.editJudul.text,
+            binding.editSubJudul.text,
+            binding.editDeskripsi.text,
+        )
+        val shareIntent = Intent(Intent.ACTION_SEND)
+        shareIntent.setType("text/plain").putExtra(Intent.EXTRA_TEXT, message)
+        if (shareIntent.resolveActivity(
+                requireActivity().packageManager) != null) {
+            startActivity(shareIntent)
+        }
+    }
+
     private fun updateNote(it:View?){
         val judul = binding.editJudul.text.toString()
         val subJudul = binding.editSubJudul.text.toString()

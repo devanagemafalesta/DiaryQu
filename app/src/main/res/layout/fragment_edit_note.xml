@@ -94,16 +94,25 @@
             android:textColorHint="@color/white" />
 
 
-    </LinearLayout>
 
-    <Button
-        android:id="@+id/edit_simpan_Note_btn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|right"
-        android:text="@string/save"
-        android:backgroundTint="@color/blue"
-        android:layout_margin="30dp"/>
+        <Button
+            android:id="@+id/edit_simpan_Note_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="@color/blue"
+            android:text="@string/save" />
+
+        <Button
+            android:id="@+id/shareButton"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+
+
+            android:backgroundTint="#33691E"
+            android:text="@string/bagikan" />
+
+    </LinearLayout>
 
     <!--    <com.google.android.material.floatingactionbutton.FloatingActionButton-->
     <!--        android:id="@+id/simpan_Note_btn"-->
