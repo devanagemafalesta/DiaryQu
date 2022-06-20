@@ -8,4 +8,7 @@
     <string name="infoApp">DiaryQu merupakan aplikasi catatan diary sederhana. Proses penyutingan diary dapat dilakukan dengan cepat dan mudah. DiaryQu dapat melakukan operasi menambahkan , edit dan juga hapus berbagai catatan, terdapat option mood juga untuk memberikan kesan emosi saat penulisan diary. pada aplikasi ini penulis dapat mengabadikan kenangannya beserta emosinya saat menulis diary</string>
     <string name="bagikan">Bagikan</string>
     <string name="bagikan_template">Judul: %1$s \nSubJudul: %2$s \nDeskripsi: %3$s</string>
+    <string name="message">%1$s diklik!</string>
+    <string name="koneksi_error">Koneksi error</string>
+
 </resources>

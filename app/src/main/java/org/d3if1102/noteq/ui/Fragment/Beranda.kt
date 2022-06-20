@@ -58,6 +58,11 @@ class Beranda : Fragment() {
                 R.id.action_beranda_to_about)
             return true
         }
+        if (item.itemId == R.id.menu_motivasi){
+            findNavController().navigate(
+                R.id.action_beranda_to_mainActivity)
+            return true
+        }
         return super.onOptionsItemSelected(item)
     }
 }

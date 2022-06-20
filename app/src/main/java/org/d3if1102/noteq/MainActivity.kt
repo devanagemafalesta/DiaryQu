@@ -2,6 +2,7 @@ package org.d3if1102.noteq
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import androidx.navigation.NavController
 import androidx.navigation.findNavController
 import androidx.navigation.fragment.NavHostFragment
@@ -18,6 +19,7 @@ class MainActivity : AppCompatActivity() {
         navController=navHostFragment.navController
 
         setupActionBarWithNavController(navController)
+        Log.i("MainActivity", "onCreate dijalankan")
     }
 
     override fun onSupportNavigateUp(): Boolean {

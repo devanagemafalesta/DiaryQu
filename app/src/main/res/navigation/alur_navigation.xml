@@ -19,6 +19,9 @@
         <action
             android:id="@+id/action_beranda_to_about"
             app:destination="@id/about" />
+        <action
+            android:id="@+id/action_beranda_to_mainActivity"
+            app:destination="@id/mainActivity" />
     </fragment>
     <fragment
         android:id="@+id/tambahNote"
@@ -49,4 +52,14 @@
             android:id="@+id/action_about_to_beranda"
             app:destination="@id/beranda" />
     </fragment>
+
+    <fragment
+        android:id="@+id/mainActivity"
+        android:name="org.d3if1102.noteq.ui.Fragment.MainFragment"
+        android:label="Motivasi">
+        <action
+            android:id="@+id/action_about_to_beranda"
+            app:destination="@id/beranda" />
+    </fragment>
+
 </navigation>
