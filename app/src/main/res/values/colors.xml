@@ -8,7 +8,9 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="yellow">#FFC107</color>
+    <color name="yellowVariant">#9A760A</color>
     <color name="text_box">#85837F</color>
     <color name="blue">#4343DF</color>
     <color name="red">#F41B4D</color>
+
 </resources>
